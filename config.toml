@@ -1,6 +1,7 @@
 baseurl = "/"
 languageCode = "en-us"
 theme = "hello-friend-ng"
+publishDir = "zhenghaozhu.github.io"
 
 [params]
   dateform        = "Jan 2, 2006"
