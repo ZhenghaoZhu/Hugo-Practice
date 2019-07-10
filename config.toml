@@ -28,7 +28,7 @@ publishDir = "zhenghaozhu.github.io"
     readOtherPosts = "Read other posts"
 
     [languages.en.params.logo]
-      logoText = "$ cd \kevin\Home"
+      logoText = "$ cd /kevin/Home"
       logoHomeLink = ""
     # or
     #
