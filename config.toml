@@ -29,7 +29,7 @@ publishDir = "zhenghaozhu.github.io"
 
     [languages.en.params.logo]
       logoText = "$ cd \kevin\Home"
-      logoHomeLink = "\"
+      logoHomeLink = ""
     # or
     #
     # path = "/img/your-example-logo.svg"
