@@ -1,4 +1,4 @@
-baseurl = "/"
+baseurl = "https://zhenghaozhu.github.io/"
 languageCode = "en-us"
 theme = "hello-friend-ng"
 publishDir = "zhenghaozhu.github.io"
@@ -28,8 +28,8 @@ publishDir = "zhenghaozhu.github.io"
     readOtherPosts = "Read other posts"
 
     [languages.en.params.logo]
-      logoText = "$ cd /Users/kevin/Home"
-      logoHomeLink = "/"
+      logoText = "$ cd \kevin\Home"
+      logoHomeLink = "\"
     # or
     #
     # path = "/img/your-example-logo.svg"
