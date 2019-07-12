@@ -3,6 +3,16 @@ languageCode = "en-us"
 theme = "hello-friend-ng"
 publishDir = "zhenghaozhu.github.io"
 
+rssLimit  = 10  # Maximum number of items in the RSS feed.
+copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License." # This message is only used by the RSS template.
+
+enableRobotsTXT = true
+enableGitInfo   = true
+enableEmoji     = true
+
+[permalinks]
+  posts = "/posts/:year/:month/:title/"
+
 [params]
   dateform        = "Jan 2, 2006"
   dateformShort   = "Jan 2"
@@ -29,7 +39,7 @@ publishDir = "zhenghaozhu.github.io"
 
     [languages.en.params.logo]
       logoText = "$ cd /kevin/Home"
-      logoHomeLink = ""
+      logoHomeLink = "/"
     # or
     #
     # path = "/img/your-example-logo.svg"
@@ -45,11 +55,14 @@ publishDir = "zhenghaozhu.github.io"
         identifier = "Projects"
         name = "Projects"
         url = "/projects"
-      
+      [[languages.en.menu.main]]
+        identifier = "Posts"
+        name = "Posts"
+        url = "/posts"
   # Social icons
   [[params.social]]
     name = "resume"
-    url = "https://drive.google.com/file/d/19hkDCv6O76GxIZwTzRHhn4BBY_Y4IiFD/view?usp=sharing"
+    url = "https://drive.google.com/file/d/1B-zOl7RWpCB4oYNKd2pKki-f1M3XrNjl/view?usp=sharing"
 
   [[params.social]]
     name = "email"
@@ -75,4 +88,4 @@ publishDir = "zhenghaozhu.github.io"
   [[menu.main]]
     identifier = "blog"
     name       = "Blog"
-    url        = "/posts"
+    url        = "/blog"
